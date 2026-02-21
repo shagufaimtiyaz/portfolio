@@ -3,20 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Home</title>
+    <title>Artist Portfolio - Creative Design Studio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Navigation -->
     <nav>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/projects/">Projects</a>
-        <a href="/contact/">Contact</a>
+        <div class="nav-container">
+            <div class="logo">🎨 ARTIST STUDIO</div>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#portfolio">WORK</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
     </nav>
-    <main>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm a developer and designer passionate about creating amazing web experiences.</p>
-    </main>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Creative Visuals & <span class="gradient-text">Bold Designs</span></h1>
+            <p>Exploring the intersection of art, culture, and digital innovation through compelling visual storytelling</p>
+            <button class="cta-button">Explore My Work</button>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2 class="section-title">My Portfolio</h2>
+        
+        <div class="portfolio-grid">
+            <!-- Project 1: Container Concept -->
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="images/project1.jpg" alt="Container Concept - Logistics and Trade">
+                    <div class="portfolio-overlay">
+                        <h3>Container Concept</h3>
+                        <p>Exploring logistics and international trade through bold 3D illustration</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Political Commentary -->
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="images/project2.jpg" alt="Political Commentary - Editorial Illustration">
+                    <div class="portfolio-overlay">
+                        <h3>Political Commentary</h3>
+                        <p>Editorial illustration reflecting on power, influence, and human struggle</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: Digital Addiction -->
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="images/project3.jpg" alt="Digital Addiction - Social Media Commentary">
+                    <div class="portfolio-overlay">
+                        <h3>Digital Addiction</h3>
+                        <p>Social commentary on technology, connectivity, and modern life</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4: Strategic Direction -->
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="images/project4.jpg" alt="Strategic Direction - Business & Vision">
+                    <div class="portfolio-overlay">
+                        <h3>Strategic Direction</h3>
+                        <p>Conceptual design about leadership, goals, and navigating life's journey</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    I'm a digital artist and designer passionate about creating bold, conceptual visual narratives that challenge perspectives and spark conversations. 
+                    My work blends satire, vibrant colors, and thoughtful design to explore contemporary themes—from digital culture and politics to economics and human connection.
+                </p>
+                <p class="about-text">
+                    Each piece I create is an attempt to distill complex ideas into compelling visual stories that resonate with viewers on emotional and intellectual levels. 
+                    I believe great design isn't just beautiful; it should provoke thought and inspire change.
+                </p>
+                <div class="skills">
+                    <span class="skill-tag">Digital Illustration</span>
+                    <span class="skill-tag">Conceptual Design</span>
+                    <span class="skill-tag">3D Visualization</span>
+                    <span class="skill-tag">Editorial Art</span>
+                    <span class="skill-tag">Social Commentary</span>
+                    <span class="skill-tag">Brand Design</span>
+                    <span class="skill-tag">Creative Direction</span>
+                    <span class="skill-tag">Visual Storytelling</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Let's Collaborate</h2>
+            <p class="contact-subtitle">Have an exciting project in mind? I'd love to hear from you!</p>
+            
+            <div class="contact-links">
+                <a href="mailto:shagufaimtiyaz@gmail.com" class="contact-link">📧 Email Me</a>
+                <a href="#" class="contact-link">🎨 Instagram</a>
+                <a href="#" class="contact-link">💼 LinkedIn</a>
+                <a href="#" class="contact-link">🐙 GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Artist Studio. All rights reserved. Created with passion and creativity.</p>
+    </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
